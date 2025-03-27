@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(250, 235, 215, 0.872);
+}
+
+
+.encabezado{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    background-color: aliceblue;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.logo{
+display: flex;
+flex-direction: column;
+align-items: center;;
+padding: 20px;
+margin-left: 10px;
+}
+
+.opciones{
+display: flex;
+align-items:flex-end;
+margin: 30px;
+justify-content: space-around;
+gap: 90px;
+}
+a{
+        text-decoration: none;
+        color: black;
+        transition: transform 0.2s ease, color 0.2s ease; /* Transición suave */
+
+}
+
+
+a:hover {
+    color: gray;
+    transform: scale(1.1); /* Amplía un 10% sin afectar a los otros elementos */
+}
+
+.iconos{
+display: flex;
+display: flex;
+align-items:flex-end;
+margin: 30px;
+justify-content: space-around;
+gap: 10px;
+
+}
+
+
+
+.pequeño{
+    font-style: oblique;
+    font-size: 9px;
+}
+
+.lateral{
+    width: 200px;
+    height: 600px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-style: solid;
+
+}
+
+.desplegable{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: overline;
+    margin-bottom: 40px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+
+}
+li{
+    margin-top: 20px;
+}
